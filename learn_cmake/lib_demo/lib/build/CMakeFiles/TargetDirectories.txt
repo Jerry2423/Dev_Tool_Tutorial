@@ -1,0 +1,3 @@
+/Users/bryant/Programming/learn_cmake/lib/build/CMakeFiles/foo_math.dir
+/Users/bryant/Programming/learn_cmake/lib/build/CMakeFiles/edit_cache.dir
+/Users/bryant/Programming/learn_cmake/lib/build/CMakeFiles/rebuild_cache.dir

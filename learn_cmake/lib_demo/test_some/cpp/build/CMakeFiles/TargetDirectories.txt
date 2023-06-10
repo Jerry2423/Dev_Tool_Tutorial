@@ -1,0 +1,3 @@
+/Users/bryant/Programming/learn_cmake/lib_demo/test_some/cpp/build/CMakeFiles/testsome.dir
+/Users/bryant/Programming/learn_cmake/lib_demo/test_some/cpp/build/CMakeFiles/edit_cache.dir
+/Users/bryant/Programming/learn_cmake/lib_demo/test_some/cpp/build/CMakeFiles/rebuild_cache.dir

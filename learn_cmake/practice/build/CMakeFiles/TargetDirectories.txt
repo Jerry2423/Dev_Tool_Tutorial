@@ -1,0 +1,6 @@
+/Users/bryant/Programming/learn_cmake/practice/build/CMakeFiles/Practice.dir
+/Users/bryant/Programming/learn_cmake/practice/build/CMakeFiles/edit_cache.dir
+/Users/bryant/Programming/learn_cmake/practice/build/CMakeFiles/rebuild_cache.dir
+/Users/bryant/Programming/learn_cmake/practice/build/foo/CMakeFiles/Foo.dir
+/Users/bryant/Programming/learn_cmake/practice/build/foo/CMakeFiles/edit_cache.dir
+/Users/bryant/Programming/learn_cmake/practice/build/foo/CMakeFiles/rebuild_cache.dir
