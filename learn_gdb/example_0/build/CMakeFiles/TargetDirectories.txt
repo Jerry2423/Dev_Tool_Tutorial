@@ -1,0 +1,3 @@
+/Users/bryant/Programming/dev_tool_tutorial/learn_gdb/example_0/build/CMakeFiles/main.dir
+/Users/bryant/Programming/dev_tool_tutorial/learn_gdb/example_0/build/CMakeFiles/edit_cache.dir
+/Users/bryant/Programming/dev_tool_tutorial/learn_gdb/example_0/build/CMakeFiles/rebuild_cache.dir
