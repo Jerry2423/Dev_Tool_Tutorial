@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(main)
+add_executable(main main.cpp)
+target_compile_options(main PRIVATE -fsanitize=address -Wall -Wextra)
+target_link_options(main PRIVATE -fsanitize=address)
