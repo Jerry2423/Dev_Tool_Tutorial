@@ -35,3 +35,12 @@ concept
 
 phylosophy
 - `--` follow a word without abbreviation; `-` follow a letter abbreviation
+
+
+
+- Ignore specified files: [Link](https://stackoverflow.com/questions/8981472/ignore-all-files-with-the-same-name-in-git)
+
+> - An asterisk "`*`" matches anything except a slash. The character "`?`" matches any one character except "`/`". The range notation, e.g. `[a-zA-Z]`, can be used to match one of the characters in a range. See fnmatch(3) and the FNM_PATHNAME flag for a more detailed description.
+> - A leading "`**`" followed by a slash means match in all directories. For example, "`**/foo`" matches file or directory "`foo`" anywhere, the same as pattern "`foo`". "`**/foo/bar`" matches file or directory "`bar`" anywhere that is directly under directory "`foo`".
+> - A trailing "`/**`" matches everything inside. For example, "`abc/**`" matches all files inside directory "`abc`", relative to the location of the `.gitignore` file, with infinite depth.
+
