@@ -68,3 +68,9 @@
 - Containers are instances of images
 - Images are blueprint. A running container uses an isolated **filesystem**. This isolated filesystem is provided by an image, and the image must contain everything needed to run an application - all dependencies, configurations, scripts, binaries, etc. The image also contains other configurations for the container, such as environment variables, a default command to run, and other metadata.
 - We can have different containers running from the **same image**, and each container can have different configurations, such as environment variables, volumes, and network settings.
+
+### Vscode Devcontainer
+
+- [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
+- [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
+- [My Favorite Way To Handle Dev Environments | VS Code Devcontainers](https://www.youtube.com/watch?v=SDa3v4Quj7Y&t=17s&ab_channel=DanCanCode)
