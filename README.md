@@ -18,3 +18,4 @@ This repository contains development learning tool notes
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k): awsome theme for zsh: `p10k configure` for cinfiguration
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting?tab=readme-ov-file)
+- [Mac Terminal](https://www.josean.com/posts/terminal-setup)
