@@ -5,6 +5,13 @@
 - `man` - manual for a command, e.g. `man ls` gives the manual for `ls` command, e.g. `man -k "pattern"` gives the manual for all commands that contain `pattern`, `man ls` gives the manual for `ls` command. 
 - `-k` - search for a **keyword** in the manual, not the command itself (a more general search)
 
+### Keyboard Shortcuts
+- `^w` - delete the word before the cursor
+- `^a` - move to the front of the line
+- `^e` - move to the end of the line
+- `^u` - delete the whole line
+- `^k` - delete the remaining part staring at the cursor
+
 ### Inspect Files
 - `ls` - list files in a directory
 - `cat` - print file contents
