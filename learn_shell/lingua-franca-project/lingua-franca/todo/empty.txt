@@ -1,0 +1,10 @@
+       0 africa/afrikaans.txt
+       0 asia/hebrew.txt
+       0 asia/hindi.txt
+       0 asia/japanese.txt
+       0 europe/chinese.txt
+       0 europe/french.txt
+       0 europe/german.txt
+       0 europe/italian.txt
+       0 europe/russian.txt
+       0 northamerica/french.txt

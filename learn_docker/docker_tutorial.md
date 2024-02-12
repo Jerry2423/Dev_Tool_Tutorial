@@ -74,3 +74,4 @@
 - [Developing inside a Container](https://code.visualstudio.com/docs/devcontainers/containers)
 - [Dev Containers tutorial](https://code.visualstudio.com/docs/devcontainers/tutorial)
 - [My Favorite Way To Handle Dev Environments | VS Code Devcontainers](https://www.youtube.com/watch?v=SDa3v4Quj7Y&t=17s&ab_channel=DanCanCode)
+- Use the unminimized version of the base image for better development experience: `sudo apt-get update && sudo unminimize`
