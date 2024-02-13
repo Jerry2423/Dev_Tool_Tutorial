@@ -1,5 +1,19 @@
 ## Common Shell Commands
 
+### Table of Contents
+- [Ask for Help](#ask-for-help)
+- [Keyboard Shortcuts](#keyboard-shortcuts)
+- [Inspect Files](#inspect-files)
+- [Search Files](#search-files)
+- [Moving to the Previous Directory](#moving-to-the-previous-directory)
+- [Compare Files](#compare-files)
+- [Symbolic Links](#symbolic-links)
+- [Linux File Permissions](#linux-file-permissions)
+- [Redirection](#redirection)
+- [Customize Environment](#customize-environment)
+- [Linux Filesystem Hierarchy Standard](#linux-filesystem-hierarchy-standard)
+
+
 
 ### Ask for Help
 - `man` - manual for a command, e.g. `man ls` gives the manual for `ls` command, e.g. `man -k "pattern"` gives the manual for all commands that contain `pattern`, `man ls` gives the manual for `ls` command. 
@@ -11,6 +25,7 @@
 - `^e` - move to the end of the line
 - `^u` - delete the whole line
 - `^k` - delete the remaining part staring at the cursor
+- `^r` to search through command history (after pressing, type to search, press `^r` repeatedly to cycle through more matches, press Enter to execute the found command, or hit the right arrow to put the result in the current line to allow editing).
 
 ### Inspect Files
 - `ls` - list files in a directory
