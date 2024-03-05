@@ -49,6 +49,19 @@ Here is a full list of the commands you'll want to be familiar with. For even mo
 - Switch focus (where arrow can be controlled) - `focus cmd`, `focus src`, `focus asm`, `focus regs` / `focus next`, `focus prev`
 - `nexti` / `ni` - next instruction (in assembly)
 
+
+### gdb `x` command
+- `x` command is used to examine memory
+- `x/[format] [address]` - examine memory at `address` with `format`
+- `[format]` consist of `nuf`:
+    - `n` - number of units to display
+    - `u` - unit size (b, h, w, g for byte, halfword (2 bytes), word (4 bytes), giantword (8 bytes))
+    - `f` - display format (x for hex, d for decimal, u for unsigned decimal, o for octal, t for binary, a for address, i for instruction)
+- Example: For an array `int a[5]`, examine the first 3 elements in hex format: `(gdb) x/3wd a`
+    - `3` - number of units
+    - `w` - unit size because `int` is 4 bytes
+    - `d` - display format in decimal because we want to see the value of the array elements and the type of the value is `int`
+
 ### Tricks 
 - keyboard shortcuts
     | Command             | Description                                                  |
