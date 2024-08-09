@@ -110,6 +110,8 @@ replace all words in the whole files: `:%s/old/new`
 
 Search in selected lines: `:lineNum1,lineNum2s/old/new`
 
+**stop highlighting of matchings** - `:nohlsearch`
+
 **braces matching**
 move cursor to `(` `[` `{` then press `%`, the cursor goes to the matching baraces.
 

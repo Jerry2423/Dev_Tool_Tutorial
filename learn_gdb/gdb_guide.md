@@ -45,7 +45,7 @@ Here is a full list of the commands you'll want to be familiar with. For even mo
 ### TUI Mode
 - Open TUI Mode - `ctrl-x, ctrl-a` / `tui enable`, `tui disable`
 - Switch layout - `ctrl-x, ctrl-x` / `layout next (n)`, `layout prev`
-- Refresh - `ctrl-l`
+- Refresh - `ctrl-l` (screen somtimes gets messed up, use it to refresh)
 - Switch focus (where arrow can be controlled) - `focus cmd`, `focus src`, `focus asm`, `focus regs` / `focus next`, `focus prev`
 - `nexti` / `ni` - next instruction (in assembly)
 
@@ -125,3 +125,19 @@ Referenced from [CS107 Debugging Guide](https://web.stanford.edu/class/cs107/res
 My program has varying behavior (e.g. randomly inconsistent, different in- vs. out-side of sanitycheck, or in- vs. out-side of GDB) or prints weird output.
 - Inconsistent behavior usually indicates a memory error.
 - Use `valgrind` to check for memory errors.
+
+
+
+
+
+### Multithreading
+
+`info threads`
+
+`thread #` switch to different thread
+
+`watch var condition`: `watch counter >= 450`
+
+`b func_name/line thread#`: set breakpoint for a single thread
+
+`thread apply all command`: apply `command` to all threads
